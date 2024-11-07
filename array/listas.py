@@ -36,3 +36,16 @@ print(numbers)
 ###o primeiro mostra a localização necessária do elemento a ser inserido; Nota: todos os elementos existentes que ocupam locais à direita do novo elemento (inclusive o na posição indicada) são deslocados para a direita, a fim de liberar espaço para o novo elemento;
 ###o segundo é o elemento a ser inserido.
 
+
+# Se preferir, você pode combinar o novo elemento com a lista existente usando o operador de desempacotamento *.
+
+
+# Lista original
+minha_lista = [2, 3, 4, 5]
+
+# Cria uma nova lista com o elemento no início
+minha_lista = [1, *minha_lista]
+
+print(minha_lista)  # Saída: [1, 2, 3, 4, 5]
+
+
