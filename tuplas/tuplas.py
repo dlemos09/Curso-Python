@@ -28,5 +28,5 @@ tupla = ("Jamilton", "Pedro", "Ana", "João", "Pedro")
 #tupla[0] = "alterado"
 #print(len(tupla))
 #print(tupla.index("Pedro"))
-#print(tupla.count("Pedro"))
-print(tupla)
+print(tupla.count("Pedro"))
+# print(tupla)

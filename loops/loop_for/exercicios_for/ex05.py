@@ -1,6 +1,6 @@
 # Conta quantas vogais existem em uma string.
-frase = "Exemplo de frase"
-vogais = "aeiouAEIOU"
+frase = (input('Digite uma frase: '))
+vogais = "aeiouAEIOUáéôú"
 count = 0
 for char in frase:
     if char in vogais:

@@ -1,0 +1,6 @@
+# Em Python, dicionários são coleções de dados que armazenam pares de chave-valor, permitindo o acesso aos valores através das suas chaves. Os dicionários são úteis para organizar e associar dados de maneira estruturada e acessível, como um mini banco de dados onde cada chave aponta diretamente para seu valor correspondente.
+
+# Características dos Dicionários em Python
+# Coleção de pares chave-valor: Cada item em um dicionário é composto por uma chave e um valor, como "nome": "João".
+# Chaves únicas: As chaves em um dicionário devem ser únicas e imutáveis (por exemplo, números, strings ou tuplas). Valores, no entanto, podem ser duplicados e de qualquer tipo de dado, incluindo listas, outros dicionários e funções.
+# Mutáveis: Você pode adicionar, modificar e remover pares de chave-valor em um dicionário.

@@ -1,0 +1,12 @@
+Em Python, conjuntos (ou sets) são coleções desordenadas de elementos únicos e mutáveis. Eles permitem armazenar itens sem duplicatas e são ideais para operações que envolvem comparação, união e interseção de dados. Um conjunto é uma estrutura de dados fundamental e eficiente para resolver problemas onde a presença ou ausência de um item é mais importante que sua ordem.
+
+Características dos Conjuntos em Python
+Não possuem ordem: Os elementos de um conjunto não têm uma ordem específica. Ou seja, a posição dos itens não é fixa, e a ordem de exibição pode mudar.
+Elementos únicos: Cada item no conjunto é único; não pode haver duplicatas.
+Mutáveis: Você pode adicionar ou remover elementos de um conjunto após a criação.
+Elementos imutáveis: Os itens de um conjunto devem ser de um tipo imutável (por exemplo, números, strings ou tuplas), mas o conjunto em si pode ser alterado.
+Criando Conjuntos em Python
+Conjuntos podem ser criados de duas maneiras:
+
+Usando chaves {}
+Usando a função set()
