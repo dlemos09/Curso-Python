@@ -1,51 +1,43 @@
-# postagens = [
-#     "Hoje passeado pela avenida paulista",#0
-#     "Fazendo trilha na pedra do Gavião",#1
-#     "Hoje fiz um curso de criação de Sistemas",#2
-#     "Na casa da mãe, almoçando todos juntos",#3
-# ]
-# totalPostagens = len(postagens)# 4
-#
-# contador = 0
-# while contador < totalPostagens:
-#     print(f'{contador} - {postagens[contador]}')
-#     contador += 1
-#     print("+++++++")
+# O comando for em Python é uma estrutura de repetição que permite iterar sobre elementos de uma coleção (como listas, tuplas, dicionários, strings ou outros objetos iteráveis). Sua sintaxe é simples e direta, tornando-o uma ferramenta poderosa para trabalhar com loops.
 
-postagens = [
-    "Hoje passeado pela avenida paulista",#0
-    "Fazendo trilha na pedra do Gavião",#1
-    "Hoje fiz um curso de criação de Sistemas",#2
-    "Na casa da mãe, almoçando todos juntos",#3
-]
+# Sintaxe Básica
 
-# for postagem in postagens:
-#     print(postagem)
-#     print("+++++++")
+# iteravel = 0
 
-# nome, nome2 = "jamilton", "jamilton2"
-# print(nome)
-# print(nome2)
+# for variável in iteravel:
+#      bloco de código
 
-# for indice, postagem in enumerate(postagens):
-#     print(f'{indice} - {postagem}')
-#     print("+++++++")
-# totalPostagens = len(postagens)
-# for indice in range(totalPostagens): #(1, 11)
-#     print(postagens[indice])
+# Componentes:
+# for: Palavra-chave que inicia o laço.
+# variável: Nome que representa o elemento atual do iterável durante a iteração. Esse nome é definido pelo programador.
+# in: Palavra-chave que conecta o iterável à variável do laço.
+# iterável: Um objeto que pode ser iterado, como uma lista, string, tupla, dicionário, ou resultado da função range().
+# bloco de código: O conjunto de instruções a ser executado para cada elemento do iterável. Deve estar indentado.
 
-"""
-Percorrendo textos, tuplas, set
-"""
-# palavra = "jamilton"
-# for letra in palavra:
-#     print(f'- {letra} - ')
+# Exemplo 1: Iterando sobre uma lista
 
-# meses = ('Janeiro', 'Fevereiro', 'Março')
-# for mes in meses:
-#     print(f'- {mes} - ')
+frutas = ["maçã", "banana", "laranja"]
 
-frutas = {'banana', 'maça', 'abacaxi', 'melancia'}
 for fruta in frutas:
-    print(f'- {fruta} - ')
+    print(fruta)
+
+
+# Modificadores no for
+
+# break: Interrompe o loop imediatamente.
+
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+
+
+# continue: Pula para a próxima iteração.   
+
+
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
 
