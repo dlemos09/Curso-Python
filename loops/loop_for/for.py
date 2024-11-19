@@ -41,3 +41,8 @@ for i in range(5):
         continue
     print(i)
 
+
+# O range no for em Python é uma função usada para gerar uma sequência de números. Ele é amplamente utilizado em loops para iterar sobre uma série de valores numéricos. A função range não cria uma lista em si (é um objeto gerador), o que o torna eficiente em termos de memória.
+
+# range(start, stop, step)
+
