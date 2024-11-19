@@ -7,16 +7,16 @@ Funções
 # #print(f'Média do Jamilton é {media}')
 #
 #
-# def calcular_media(nota1, nota2, nota3):
-#     totalNotas = nota1 + nota2 + nota3
-#     media = totalNotas / 3
-#     return media
-#     #print(f'Média do {nome} é {media}')
+def calcular_media(nota1, nota2, nota3):
+    totalNotas = nota1 + nota2 + nota3
+    media = totalNotas / 3
+    return media
+    # print(f'Média do {nome} é {media}')
 #
 #
 # #calcula média Jamilton
-# retorno = calcular_media(8, 9, 10)
-# print(f'Média do Jamilton é {media}')
+retorno = calcular_media(8, 9, 10)
+print(f'Média do Jamilton é {retorno}')
 #
 # #calcula média Ana
 # retorno = calcular_media(10, 9, 10)
