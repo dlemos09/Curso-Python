@@ -16,7 +16,21 @@ for palavra in frase.split():
     else:
         frequencia_palavras[palavra] = 1
 
-# Exibe a contagem de cada palavra
-print("Frequência de palavras na frase:")
-for palavra, contagem in frequencia_palavras.items():
-    print(f"{palavra}: {contagem}")
+# No código, o Python sabe como atribuir valores às variáveis palavra e contagem porque está usando o método items() do dicionário em um loop for. Aqui está a explicação detalhada:
+
+# O que items() faz?
+# O método items() retorna uma visão dos pares chave-valor de um dicionário, onde:
+
+# Cada par é representado como uma tupla (chave, valor).
+# Essa tupla pode ser desempacotada diretamente no loop.
+    
+# # Dicionário simples
+# dicionario = {"a": 1, "b": 2, "c": 3}
+
+# # Usando items() no loop
+# for chave, valor in dicionario.items():
+#     print(f"Chave: {chave}, Valor: {valor}")
+# # Saída:
+# # Chave: a, Valor: 1
+# # Chave: b, Valor: 2
+# # Chave: c, Valor: 3
