@@ -1,0 +1,14 @@
+Funções como Objetos de Primeira Classe e Ordem Superior
+Funções como Objetos de Primeira Classe
+Em Python, funções são objetos de primeira classe, o que significa que:
+
+1 - Podem ser atribuídas a variáveis.
+2 - Podem ser passadas como argumentos para outras funções.
+3 - Podem ser retornadas de funções.
+
+
+Funções de Ordem Superior
+Funções de ordem superior são aquelas que:
+
+1 - Aceitam outras funções como parâmetros.
+2 - Retornam uma função.
