@@ -1,0 +1,44 @@
+# Tipos de notação
+# notacao Pascal Case: ContaBancaria -> Ideal para Classes
+# notacao Camel Case: contaBancaria
+# notacao Snake Case: conta_bancaria
+
+1º Definição: A Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o código em torno de objetos, que são instâncias de classes. Ela permite que você modele o mundo real, estruturando o código para ser mais modular, reutilizável e fácil de entender.
+
+
+Aula sobre Programação Orientada a Objetos (POO) com Python
+1. O que é POO?
+A Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o código em torno de objetos, que são instâncias de classes. Ela permite que você modele o mundo real, estruturando o código para ser mais modular, reutilizável e fácil de entender.
+
+2. Pilares da POO
+A POO possui quatro pilares fundamentais:
+
+- Abstração: Consiste em focar apenas nos aspectos relevantes de um objeto, ignorando detalhes complexos ou desnecessários.
+
+Exemplo: Um carro é representado pelas ações "acelerar", "frear" e "virar", sem precisar descrever o motor em detalhes.
+
+- Encapsulamento: Esconde os detalhes internos de um objeto, permitindo o acesso apenas através de métodos específicos.
+
+Exemplo: Uma conta bancária permite apenas depositar e sacar, sem acesso direto ao saldo.
+
+- Herança: Permite que uma classe herde propriedades e métodos de outra classe, promovendo a reutilização de código.
+
+Exemplo: Um "CarroEsportivo" herda características de "Carro", mas possui comportamentos adicionais.
+
+- Polimorfismo: Permite que um método tenha comportamentos diferentes dependendo do contexto.
+
+Exemplo: O método mover() pode ter comportamentos diferentes para "Carro" e "Bicicleta".
+
+3. Conceitos básicos da POO
+
+Classe: É a estrutura que define as características (atributos) e comportamentos (métodos) de um objeto.
+
+Objeto: É uma instância de uma classe, ou seja, um elemento criado a partir de uma classe.
+
+Atributos: São as características de um objeto (variáveis).
+
+Métodos: São as ações que um objeto pode realizar (funções dentro da classe).
+
+# Sintaxe
+# class Conta:
+#     pass #cria um bloco vazio
