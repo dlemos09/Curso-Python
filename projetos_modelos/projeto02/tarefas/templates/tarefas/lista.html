@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Tarefas</h1>
+    <ul>
+        {% for tarefa in tarefas %}
+            <li>
+                {{ tarefa.titulo }}
+                <a href="{% url 'excluir_tarefa' tarefa.id %}">Excluir</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'adicionar_tarefa' %}">Adicionar Tarefa</a>
+</body>
+</html>
