@@ -1,15 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adicionar Tarefa</title>
-</head>
-<body>
+
+    <style>
+      /* Estilos gerais */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Título principal */
+      h1 {
+        font-size: 2rem;
+        color: #0056b3;
+        margin-bottom: 20px;
+      }
+
+      /* Estilos do formulário */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Entrada de texto */
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      /* Botão */
+      button {
+        padding: 10px 20px;
+        background-color: #0056b3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #003d80;
+      }
+
+      /* Link de voltar */
+      a {
+        margin-top: 20px;
+        text-decoration: none;
+        color: #0056b3;
+        font-size: 1rem;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Layout responsivo */
+      @media (max-width: 480px) {
+        form {
+          padding: 15px;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        button {
+          font-size: 0.9rem;
+        }
+
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <h1>Adicionar Tarefa</h1>
     <form method="post">
-        {% csrf_token %}
-        <input type="text" name="titulo" placeholder="Título da tarefa">
-        <button type="submit">Adicionar</button>
+      {% csrf_token %}
+      <input type="text" name="titulo" placeholder="Título da tarefa" autofocus />
+      <button type="submit">Adicionar</button>
     </form>
     <a href="{% url 'lista_tarefas' %}">Voltar</a>
-</body>
+  </body>
 </html>
